@@ -71,7 +71,7 @@ It may be better to 'bake' your content into the image directly.  Then no volume
 
 Have a look at the `Dockerfile` in this directory.
 
-The first line (`FROM`) indicate the base image to use.
+The first line (`FROM`) indicates the base image to use.
 
 We then `COPY` the content of the `site` directory to the nginx `html` path.
 

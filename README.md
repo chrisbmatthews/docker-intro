@@ -67,7 +67,7 @@ docker run -d -p 8080:80 -v $(pwd)/site:/usr/share/nginx/html --name my-nginx ng
 Now if you hit http://localhost:8080 you will see your own content.
 
 ## Creating your own image
-It may be better to 'bake' your content into the image directly.  You can do this by creating your own docker image based on the `nginx` base image.
+It may be better to 'bake' your content into the image directly.  Then no volume mapping is required.  You can do this by creating your own docker image based on the `nginx` base image.
 
 Have a look at the `Dockerfile` in this directory.
 

@@ -147,7 +147,7 @@ This means that port forwarding is only truly necessary if you need to expose a 
 ### Contacting the host network
 One more tip is you can connect to anything running on the true host by using either `host.docker.internal` or `172.17.0.1`
 
-If you are running docker desktop for Windows or macOS, you can run this form the postgres container:
+If you are running docker desktop for Windows or macOS, you can run this from the postgres container:
 
 ```
 curl host.docker.internal:8080

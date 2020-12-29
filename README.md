@@ -153,7 +153,7 @@ If you are running docker desktop for Windows or macOS, you can run this form th
 curl host.docker.internal:8080
 ```
 
-This will call out to port 8080 on the true host machine (as you will recal, 8080 is mapped to port 80 on the `my-nginx` container, so we get the nginx response).
+This will call out to port 8080 on the true host machine (as you will recall, 8080 is mapped to port 80 on the `my-nginx` container, so we get the nginx response).
 
 If you are running natively in linux, this does the same thing:
 

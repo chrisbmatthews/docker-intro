@@ -1,6 +1,7 @@
 # Docker Basics Tutorial
 
-This repo shows some basic concepts with docker.
+This repo shows some basic concepts with docker.  See the youtube video here:
+https://youtu.be/yJjGe5om4Lo
 
 ## Running Containers
 We are using the nginx official image:
